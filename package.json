@@ -1,0 +1,25 @@
+{
+  "name": "pull-iterable",
+  "version": "0.1.0",
+  "description": "pull-stream source for ES6 iterables",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover node_modules/mocha/bin/_mocha"
+  },
+  "author": "Nik Coughlin <nrkn.com@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nrkn/pull-iterable.git"
+  },
+  "bugs": {
+    "url": "https://github.com//nrkn/pull-iterable/issues"
+  },
+  "homepage": "https://github.com//nrkn/pull-iterable#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^3.4.2",
+    "pull-stream": "^3.6.0"
+  }
+}
